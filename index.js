@@ -9,7 +9,7 @@ dotenv.config();
 const PORT = process.env.PORT || 5000;
 
 const URI =
-  "mongodb+srv://phamquocviet1211999:viet@cluster0.bskhp3n.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://phamquocviet1211999:viet@viet.osqgshk.mongodb.net/";
 
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" })); // limit from front-end data 30MB
